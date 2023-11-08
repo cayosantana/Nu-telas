@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 body {
     background-color: black;
@@ -11,11 +11,14 @@ body {
     margin-top: 80px;
     margin-left: 40px;
 }
+h1 {
+    font-size: 3.0rem;
+}
 section.s1, section.s2, section.s3 {
     margin-top: 20px;
 }
 section.s1 > div {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 section.s2 > div {
@@ -40,9 +43,12 @@ section.s2 > div > p {
     align-items: center;
 }
 #seta, #money2, #ampul {
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 5px;
     vertical-align: middle;
+}
+#porco {
+    color: lightgreen;
 }
 section.s3 > div {
     background-color: rgb(53, 53, 53);
@@ -62,4 +68,30 @@ section#historico > h2 {
     border-radius: 15px;
     padding: 10px;
     margin-bottom: 60px;
+}
+#card {
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#boleto {
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#dinheiro {
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: lightgreen;
+}
+#back-compra {
+    margin-bottom: 40px;
+}
+#back-compra > p {
+    color: rgb(170, 170, 170);
+}
+a {
+    text-decoration: none;
+    color: white;
 }
