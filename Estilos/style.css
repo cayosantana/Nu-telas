@@ -30,6 +30,7 @@ section.s2 > div > div#circle {
     height: 70px;
     background-color: rgb(53, 53, 53);
     border-radius: 50%;
+    display: block;
 }
 section.s2 > div > p {
     text-align: center;
@@ -94,4 +95,11 @@ section#historico > h2 {
 a {
     text-decoration: none;
     color: white;
+}
+
+#c1 {
+    font-size: 40px;
+    
+
+    
 }
